@@ -6,8 +6,8 @@ import { TestComponent } from './components/test/test.component';
   selector: 'app-root',
   imports: [RouterOutlet, TestComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'ngrx-app';
+  title: any = 'ngrx-app';
 }
