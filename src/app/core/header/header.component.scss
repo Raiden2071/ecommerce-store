@@ -1,8 +1,26 @@
 .header {
   background-color: var(--global-white);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  height: 72px;
+
+  .header-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 72px;
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+  }
 }
