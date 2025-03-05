@@ -1,0 +1,9 @@
+{
+    "angular-schematics.schematicsDefaultOptions": {
+        "angular-*": {
+            "inlineStyle": true,
+            "style": "scss",
+            "externalTemplate": true
+        }
+    }
+}
