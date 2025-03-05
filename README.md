@@ -1,59 +1,29 @@
-# NgrxApp
+📚 API Requests for Fetching Books
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.3.
+🔍 Get all books
+Fetch the complete list of books:
+GET http://localhost:3000/books
 
-## Development server
+📄 Pagination
+To fetch books in pages, use _page and _limit.
+Example: Get the first 5 books
+GET http://localhost:3000/books?_page=1&_limit=5
 
-To start a local development server, run:
+Example: Get the second page (next 5 books)
+GET http://localhost:3000/books?_page=2&_limit=5
 
-```bash
-ng serve
-```
+🎯 Get a single book by ID
+Fetch full information about a specific book:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+GET http://localhost:3000/books/1
+Replace 1 with the book ID you need.
 
-## Code scaffolding
+🎭 Filter books by genre
+Fetch books based on genre (e.g., Fantasy):
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+GET http://localhost:3000/books?genre=Fantasy
+🔎 Search for books by title
+Find books that match a search query:
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+GET http://localhost:3000/books?title_like=Harry
+📌 This will return books with "Harry" in the title (e.g., Harry Potter).

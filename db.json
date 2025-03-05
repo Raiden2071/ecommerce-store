@@ -1,0 +1,143 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "price": 10.99,
+        "rating": 4.8,
+        "description": "A fantasy novel about a hobbit's adventure.",
+        "cover": "https://example.com/hobbit.jpg"
+      },
+      {
+        "id": 2,
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "Dystopian",
+        "price": 8.99,
+        "rating": 4.7,
+        "description": "A dystopian novel about totalitarian surveillance.",
+        "cover": "https://example.com/1984.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "genre": "Fantasy",
+        "price": 12.99,
+        "rating": 4.9,
+        "description": "A young wizard's first year at Hogwarts.",
+        "cover": "https://example.com/harrypotter1.jpg"
+      },
+      {
+        "id": 4,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "Classic",
+        "price": 9.99,
+        "rating": 4.8,
+        "description": "A novel about racial injustice in the Deep South.",
+        "cover": "https://example.com/mockingbird.jpg"
+      },
+      {
+        "id": 5,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "genre": "Classic",
+        "price": 7.99,
+        "rating": 4.6,
+        "description": "A novel about the American Dream in the 1920s.",
+        "cover": "https://example.com/gatsby.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "genre": "Adventure",
+        "price": 11.99,
+        "rating": 4.5,
+        "description": "A sailor's obsession with a giant white whale.",
+        "cover": "https://example.com/mobydick.jpg"
+      },
+      {
+        "id": 7,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "genre": "Classic",
+        "price": 8.49,
+        "rating": 4.4,
+        "description": "A story about teenage rebellion and identity.",
+        "cover": "https://example.com/catcher.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "genre": "Dystopian",
+        "price": 10.49,
+        "rating": 4.7,
+        "description": "A futuristic world controlled by technology and conditioning.",
+        "cover": "https://example.com/bravenewworld.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Lord of the Flies",
+        "author": "William Golding",
+        "genre": "Classic",
+        "price": 6.99,
+        "rating": 4.5,
+        "description": "A group of boys stranded on an island descend into chaos.",
+        "cover": "https://example.com/lordoftheflies.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "genre": "Science Fiction",
+        "price": 13.99,
+        "rating": 4.9,
+        "description": "A sci-fi epic about politics, religion, and a desert planet.",
+        "cover": "https://example.com/dune.jpg"
+      },
+      {
+        "id": 11,
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "genre": "Horror",
+        "price": 7.49,
+        "rating": 4.6,
+        "description": "A scientist creates a monster with tragic consequences.",
+        "cover": "https://example.com/frankenstein.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "genre": "Horror",
+        "price": 8.99,
+        "rating": 4.7,
+        "description": "The original vampire tale that started it all.",
+        "cover": "https://example.com/dracula.jpg"
+      }
+    ],
+    "filters": {
+        "genres": [
+          "Fantasy",
+          "Dystopian",
+          "Classic",
+          "Science Fiction",
+          "Mystery",
+          "Thriller",
+          "Horror",
+          "Historical Fiction",
+          "Romance",
+          "Psychological Fiction",
+          "Adventure",
+          "Biography",
+          "Self-Help",
+          "Poetry"
+        ]
+      }
+}
+  
