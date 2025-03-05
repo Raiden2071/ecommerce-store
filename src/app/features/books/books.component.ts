@@ -1,6 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import {MatCardModule} from '@angular/material/card';
-
+import { MatCardModule } from '@angular/material/card';
 
 @Component({
   selector: 'app-books',
@@ -15,6 +14,6 @@ export class BooksComponent {
     name: 'Властелин колец',
     price: 400,
     image: 'https://material.angular.io/assets/img/examples/shiba2.jpg',
-    description: 'Увлекательная история про Голума'
-  }
+    description: 'Увлекательная история про Голума',
+  };
 }

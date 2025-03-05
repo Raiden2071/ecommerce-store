@@ -11,7 +11,5 @@ import { HeaderFilterComponent } from './components/header-filter/header-filter.
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HeaderComponent implements OnInit {
-
-  ngOnInit(): void { }
-
+  ngOnInit(): void {}
 }

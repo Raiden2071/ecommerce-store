@@ -10,4 +10,4 @@ import { HeaderComponent } from '../header/header.component';
   styleUrl: './layout.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class LayoutComponent { }
+export class LayoutComponent {}

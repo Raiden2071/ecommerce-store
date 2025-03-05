@@ -2,7 +2,6 @@ import { ChangeDetectionStrategy, Component, type OnInit } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 
-
 @Component({
   selector: 'app-header-search',
   imports: [MatInputModule, MatIconModule],
@@ -11,7 +10,5 @@ import { MatInputModule } from '@angular/material/input';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HeaderSearchComponent implements OnInit {
-
-  ngOnInit(): void { }
-
+  ngOnInit(): void {}
 }

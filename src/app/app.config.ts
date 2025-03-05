@@ -10,5 +10,5 @@ export const appConfig: ApplicationConfig = {
     // provideStore({ products: productReducer }),
     // provideEffects([ProductEffects]),
     provideHttpClient(),
-  ]
+  ],
 };
